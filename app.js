@@ -14,7 +14,7 @@ app.use((req, res, next) => {
 })
 app.use('/feed', feedRoutes);
 mongoose.connect(
-    'mongodb+srv://max:<password>@cluster0-gx8g5.mongodb.net/test?retryWrites=true&w=majority'
+    'mongodb+srv://max:madmax23!@cluster0-gx8g5.mongodb.net/test?retryWrites=true&w=majority'
 ).then(result => {
     app.listen(8080);
 }).catch(err => console.log(err));
